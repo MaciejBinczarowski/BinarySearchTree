@@ -51,7 +51,7 @@ public class BinaryTree<T extends Comparable<T>>
         {
             if (currentNodeParent != null)
             {
-                System.out.println(element + ": Mój parent to: " + currentNodeParent.value);
+                // System.out.println(element + ": Mój parent to: " + currentNodeParent.value);
             }
             return new Node(element, currentNodeParent);
         }
