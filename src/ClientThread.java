@@ -38,8 +38,8 @@ public class ClientThread extends Thread
             
             do
             {
-                output.println("Wprowadź typ drzewa");
-                output.println("waiting for response");
+                // output.println("Wprowadź typ drzewa");
+                // output.println("waiting for response");
                 line = input.readLine();
                 webHandler = webHandlersMap.get(line);
             } while (webHandler == null);

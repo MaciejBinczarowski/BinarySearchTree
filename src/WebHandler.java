@@ -25,7 +25,7 @@ public class WebHandler<T extends Comparable<T>>
         {
             do
             {
-                output.println("\nChoose action");
+                output.println("Choose action");
                 output.println("waiting for response");
 
                 inputString = clientInput.readLine();
